@@ -71,7 +71,12 @@ header {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
 
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
 }
 
 .mobile.is-open {

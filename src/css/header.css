@@ -1,7 +1,7 @@
 /* Хедер удалить когда зальют в репозиторий */
-header {
+/* header {
     background: #e0cbb4;
-}
+} */
 
 .header-nav {
     display: flex;
@@ -58,6 +58,16 @@ header {
 
 .nav-item {}
 
+/* Hover  */
+.nav-item a {
+    transition: border-bottom 50ms ease-in;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #0b0803;
+}
+
+
 /* !mobile menu */
 
 .mobile {
@@ -105,4 +115,11 @@ header {
     gap: 32px;
 }
 
-.mobile-list-item {}
+/* Hover  */
+.mobile-list-item a {
+    transition: border-bottom 50ms ease-in;
+}
+
+.mobile-list-item a:hover {
+    border-bottom: 1px solid #0b0803;
+}

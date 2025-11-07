@@ -83,6 +83,7 @@
   border: 1px solid rgba(11, 8, 3, 0.15);
 
   padding: 8px 12px;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {

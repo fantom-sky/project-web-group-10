@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
-
-.welcome-container {
-  background-color: #E0CBB4;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
 .wstablet {
   margin-bottom: 32px;
 }
@@ -28,7 +21,7 @@ letter-spacing: 0%;
 .welcome-img-t {
    width: 100%;
   height: auto;
-  border-radius: 25px;
+  border-radius: 40px;
   display: none;
 }
 

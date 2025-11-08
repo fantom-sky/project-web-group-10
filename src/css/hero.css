@@ -8,8 +8,8 @@
   align-items: center;
   color: #fff;
   position: relative;
-      padding: 64px;
-       min-height: 100vh;
+  padding: 64px;
+  min-height: 100vh;
    
 }
 
@@ -26,7 +26,7 @@
 
 .hero-content {
  
-    position: relative;
+  position: relative;
   width: 100%;
   max-width: 560px; 
 }
@@ -133,7 +133,7 @@ letter-spacing: -0.01em;
     font-size: 18px;
     margin-bottom: 32px;
     font-weight: 400;
-line-height: 150%;
+    line-height: 150%;
     
   }
 

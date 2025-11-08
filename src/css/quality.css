@@ -1,4 +1,7 @@
-
+.quality-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .subtext{
     font-weight: 600;
     color: #0b0803;

@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
     row-gap: 32px;
     color: #0b0803; /*--color-neutral-darkest*/
     fill: #0b0803; /*--color-neutral-darkest*/
@@ -31,8 +30,6 @@
 .location-address-wrapper,
 .map-iframe-wrapper {
     min-width: 100%;
-    max-width: 375px;
-    /*outline: 2px solid red;*/
 }
 
 
@@ -74,10 +71,6 @@
     font-size: 18px;
     margin-bottom: 40px;
 }
-
-/*.address-box {
-    outline: 1px solid olive;
-}*/
 
 
 .address-box-list {

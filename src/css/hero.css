@@ -1,5 +1,5 @@
 .hero {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/02-img.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/m-hero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,13 +39,14 @@
 }
 @media (min-resolution: 2x) {
     .hero {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/02-img@2x.jpg");
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/m-hero@2x.jpg");
     }
 }
 /* ======= Планшетна версія ======= */
 @media only screen and (min-width: 768px) {
     .hero {
         max-width: 1440px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/t-hero.jpg");
     }
   .hero-container {
     padding-top: 311.5px;
@@ -54,12 +55,23 @@
   .hero-content {
     max-width: 560px;
   }
+  @media (min-resolution: 2x) {
+      .hero {
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/t-hero@2x.jpg");
+      }
+  }
 }
 /* ======= Десктопна версія ======= */
 @media only screen and (min-width: 1440px){
     .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/d-hero.jpg");
     }
     .hero-container {
         padding: 259px 64px;
     }
+    @media (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/d-hero@2x.jpg");
+    }
+}
 }

@@ -75,6 +75,12 @@
 .experience-gallery-column {
     display: contents;
 }
+.item-1,
+.item-3,
+.item-4,
+.item-6 {
+    margin-bottom: 24px;
+}
 
 /* TABLET (768px+) */
 @media (min-width: 768px) {
@@ -82,7 +88,12 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 32px;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .experience-gallery-column {
+        display: inline-flex;
+        flex-wrap: wrap;
     }
 
     .experience-gallery-item {
@@ -119,7 +130,19 @@
         min-height: 300px;
         aspect-ratio: 704 / 391;
     }
+
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4,
+        .item-5,
+        .item-6 {
+            margin-bottom: 32px;
+        }
 }
+
+
+
 
 /* DESKTOP (1440px+) */
 @media (min-width: 1440px) {
@@ -130,18 +153,27 @@
     }
 
     .experience-gallery-list {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
         gap: 32px;
-        height: 948px;
+    }
+
+    .experience-gallery-column {
+        display: flex;
+        flex-direction: column;
+
+
+        gap: 32px;
+        width: 416px;
     }
 
 
     .experience-gallery-item {
         flex: none;
-        width: 416px;
-        /*max-width: none;*/
+        width: 100%;
+        max-width: none;
     }
 
     .item-1 .experience-gallery-image,
@@ -149,17 +181,17 @@
     .item-5 .experience-gallery-image,
     .item-6 .experience-gallery-image,
     .item-7 .experience-gallery-image {
-        /*width: 416px;
+        width: 416px;
         max-width: 416px;
-        min-width: 416px;*/
+        min-width: 416px;
         aspect-ratio: 1 / 1;
     }
 
     .item-3 .experience-gallery-image,
     .item-4 .experience-gallery-image {
-        /*width: 416px;
+        width: 416px;
         max-width: 416px;
-        min-width: 416px;*/
+        min-width: 416px;
         aspect-ratio: 416 / 234;
     }
 }
